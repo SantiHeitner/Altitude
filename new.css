@@ -1,0 +1,196 @@
+html {
+    background-color: #4E5266;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 1050px;
+    margin: auto;
+}
+
+.menubar {
+    height: 130px;
+}
+
+.sidemenu {
+    float: right;
+    margin-top: 52px;
+    color: white;
+    font-size: 16px;
+}
+
+.left {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.title {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    margin: auto 10px auto 0px;
+}
+
+.side {
+    display: inline-block;
+    color: #A7A9B3;
+    font-size: 16px;
+}
+
+.first {
+    margin: 0px;
+    height: 600px;
+    width: 100%;
+    color: white;
+}
+
+.area2 {
+    background-color: #4CABB1;
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.area3 {
+    background-color: #69C7AD;
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+}
+
+.area1 {
+    background-image: url(https://pixelarity.com/items/demos/altitude/cyan/images/pic02.jpg);
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20%;
+}
+
+p {
+    text-align: center;
+    margin: 36px 15%;
+}
+
+.second {
+    width: 100%;
+    background-color: white;
+    height: 545px;
+}
+
+.tot {
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 75px;
+    text-align: center;
+    color: #575B72;
+    padding-bottom: 51px;
+}
+
+.lined{
+    width: 90%;
+    margin: 0px auto;
+    text-align: center;
+    height: 315px;
+}
+
+.leftab{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #9ba4b1;
+}
+
+.midtab{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid #9ba4b1;
+}
+
+.rightab{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1110px) {
+    body {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .first {
+        height: 660px;
+    }
+    .area1 {
+        width: 100%;
+        height: 50%;
+    }
+    .area2 {
+        width: 50%;
+    }
+    .area3 {
+        width: 50%;
+        float: right;
+    }
+    .menubar {
+        height: 75px;
+    }
+    .sidemenu {
+        margin-top: 25px;
+    }
+    .left {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .area1 {
+        height: 40%;
+    }
+    .area2 {
+        height: 30%;
+        width: 100%;
+    }
+    .area3 {
+        height: 30%;
+        width: 100%;
+        float: none;
+    }
+    h2 {
+        margin-top: 10%;
+    }
+    .menubar {
+        height: 45px;
+    }
+    .sidemenu {
+        margin-top: 12px;
+        margin-right: 20px;
+    }
+    .left {
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .side {
+        display: none;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .sidemenu {
+        font-size: 15px;
+    }
+    body {
+        width: 100%;
+    }
+}
